@@ -11,6 +11,7 @@ class Trader:
         self.pos = {"Stock1":0,"Stock2":0,"Stock3":0,"Stock4":0}
         self.pnl = 0
         self.data = pd.DataFrame(columns=["time","Stock1","Stock2","Stock3","Stock4"])
+        self.
 # Add any additional info you want
 
     def MakeTrades(self, time, stock_prices):
