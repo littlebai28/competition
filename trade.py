@@ -9,6 +9,7 @@ class Trader:
         self.totalMAX = 1000000
         self.singleMAX = 600000
         self.pos = {"Stock1":0,"Stock2":0,"Stock3":0,"Stock4":0}
+        self.trans={"Stock1":0.0005,"Stock2":0.0010,"Stock3":0.0015,"Stock4":0.0020}
         self.pnl = 0
         self.data = pd.DataFrame(columns=["time","Stock1","Stock2","Stock3","Stock4"])
         self.
